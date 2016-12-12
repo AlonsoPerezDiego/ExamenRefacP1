@@ -13,13 +13,13 @@ import javax.swing.JOptionPane;
  */
 public class Metodos {
     
-    public String nombre(){
+    private String nombre(){
         //Método para introducir el nombre.
         String nombre = JOptionPane.showInputDialog ("Escriba su nombre: ");
         return nombre;
     }
     
-    public String edad(){
+    private String edad(){
         //Método para introducir la edad.
         
         String edad = JOptionPane.showInputDialog ("Escriba su edad: ");
@@ -32,19 +32,19 @@ public class Metodos {
         return años;
     }
     
-    public int meses(){
+    private int meses(){
         //Método para calcular los meses en funcion de la edad introducida.
         int meses = añosDeVida()*12;
         return meses;
     }
     
-    public int dias(){
+    private int dias(){
         //Método para calcular los días en funcion de la edad introducida.
         int dias = añosDeVida()*365;
         return dias;
     }
     
-    public int horas(){
+    private int horas(){
         //Método para calcular las horas en funcion de la edad introducida.
         int horas = dias()*24;
         return horas;
