@@ -13,9 +13,6 @@ public static void main(String[] args) {
 int m;
 int d;
 int h;
-int a;
-
-a = Integer.parseInt (e);
  
 m = (a*12);
 d = (a*365);

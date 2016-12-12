@@ -14,9 +14,16 @@ import javax.swing.JOptionPane;
 public class Metodos {
     
     public String nombreYEdad(){
-        //Método para introducir el nombre y la edad
+        //Método para introducir el nombre y la edad.
         String nombre = JOptionPane.showInputDialog ("Escriba su nombre: ");
         String edad = JOptionPane.showInputDialog ("Escriba su edad: ");
         return edad;
     }
+    
+    private int añosDeVida(){
+        //Método para pasar el String edad a un int.
+        int años = Integer.parseInt(nombreYEdad());
+        return años;
+    }
+    
 }
