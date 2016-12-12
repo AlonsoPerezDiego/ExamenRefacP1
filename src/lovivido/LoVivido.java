@@ -10,11 +10,9 @@ public class LoVivido {
 
 public static void main(String[] args) { 
 
-int m;
 int d;
 int h;
  
-m = (a*12);
 d = (a*365);
 h = (d*24);
  

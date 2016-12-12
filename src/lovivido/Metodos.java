@@ -26,4 +26,10 @@ public class Metodos {
         return años;
     }
     
+    public int meses(){
+        //Método para calcular meses en funcion de la edad introducida.
+        int meses = añosDeVida()*12;
+        return meses;
+    }
+    
 }
