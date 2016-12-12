@@ -10,10 +10,8 @@ public class LoVivido {
 
 public static void main(String[] args) { 
 
-int d;
 int h;
- 
-d = (a*365);
+
 h = (d*24);
  
  JOptionPane.showMessageDialog(null,  "Meses: "  +m,"Numero de meses vividos de " +n,JOptionPane.INFORMATION_MESSAGE);

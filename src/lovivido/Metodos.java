@@ -27,9 +27,14 @@ public class Metodos {
     }
     
     public int meses(){
-        //Método para calcular meses en funcion de la edad introducida.
+        //Método para calcular los meses en funcion de la edad introducida.
         int meses = añosDeVida()*12;
         return meses;
     }
     
+    public int dias(){
+        //Método para calcular los días en funcion de la edad introducida.
+        int dias = añosDeVida()*365;
+        return dias;
+    }
 }
