@@ -37,4 +37,10 @@ public class Metodos {
         int dias = añosDeVida()*365;
         return dias;
     }
+    
+    public int horas(){
+        //Método para calcular las horas en funcion de la edad introducida.
+        int horas = dias()*24;
+        return horas;
+    }
 }

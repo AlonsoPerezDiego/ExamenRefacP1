@@ -9,10 +9,6 @@ import javax.swing.JOptionPane;
 public class LoVivido {
 
 public static void main(String[] args) { 
-
-int h;
-
-h = (d*24);
  
  JOptionPane.showMessageDialog(null,  "Meses: "  +m,"Numero de meses vividos de " +n,JOptionPane.INFORMATION_MESSAGE);
 
